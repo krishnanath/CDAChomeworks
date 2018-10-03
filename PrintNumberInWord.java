@@ -1,3 +1,8 @@
+// Write a program called PrintNumberInWord which prints &quot;ONE&quot;, &quot;TWO&quot;,... ,
+// &quot;NINE&quot;, &quot;OTHER&quot; if the int variable &quot;number&quot; is 1, 2,... , 9, or other, respectively.
+// Use (a) a &quot;nested-if&quot; statement; (b) a &quot;switch-case&quot; statement?
+
+
 import java.util.Scanner;
 
 public class PrintNumberInWord {
