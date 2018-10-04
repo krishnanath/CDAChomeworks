@@ -9,6 +9,25 @@
 
 public class SumAndAverage {
     public static void main(String[]arg){
+  int sum = 0;
+  double average=0 ;
+  int loverbound = 1;
+  int upperbound =100;
+  for( int number = loverbound; number <= upperbound; ++number){
+      sum += number;
+      average = sum/100;
+  }
+  
+     
+  System.out.println("Sum = " + sum );
+  System.out.println("Average = "+ average);
 
     }
 }
+
+// int number = lowerbound;
+// int sum = 0;
+// do {
+//    sum += number;
+//    ++number;
+// } while (number <= upperbound);
