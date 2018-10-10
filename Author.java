@@ -52,9 +52,9 @@ private int qtyInStock = 0;
   
 public Book(String name, Author author,Double price)
 {
-this.author =  new author;
-this.name = name;
-this.price = price;
+// this.author =   new author()
+this.name =  name;
+this.price =  price;
   
 }
   
