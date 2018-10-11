@@ -1,3 +1,5 @@
+//Write a program to handle DivideByZeroExecption in java
+
 import java.util.Scanner;
 
 class DivideByZeroException {
@@ -12,10 +14,18 @@ class DivideByZeroException {
         // System.out.println("Result = " + result);
 
         //try block
+         
         try {
-            result = a/b;
-            System.out.println("Result = " + result);
+            // result = a/b;
+            // System.out.println("Result = " + result);
+            if( b == 0){
+                System.out.println("Division with zero is impossible");
+            }else {
+                result = a/b;
+                System.out.println("Result = " + result);
+            }
         }
+         
 
         // Catch block 
         catch (ArithmeticException e){
