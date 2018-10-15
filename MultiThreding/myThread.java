@@ -20,7 +20,7 @@ public class myThread extends Frame implements ActionListener
 		c=new counter(t);
 			
 	}
-	public static void main(String args[])
+	 public static void main(String args[])
 	{
 		myThread my1=new myThread();
 		my1.setSize(800,800);
