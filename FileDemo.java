@@ -6,8 +6,14 @@ class FileDemo{
         System.out.println("Absolute Path"+ f1.getAbsolutePath());
         System.out.println("Last Modified"+ f1.lastModified());
         System.out.println("Length in Bytes"+f1.length());
-        
 
+
+if(f1.exists()){
+    System.out.println("File Found");
+}
+else {
+    System.out.println("Not Found");
+}
 
     }
     

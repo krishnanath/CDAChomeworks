@@ -1,0 +1,29 @@
+import java.io.ByteArrayInputStream;
+import java.io.*;
+
+public class ByteArray {
+    public static void main(String[] args) {
+        String tmp = "abcd efga g";
+        byte b[] = tmp.getBytes();
+
+        ByteArrayInputStream in = new ByteArrayInputStream(b);
+
+        for (int i = 0; i < 2; i++) {
+            int c;
+            while ((c = in.read()) != -1) {
+                if (i == 0) {
+                    System.out.println((char) c);
+
+                } else {
+                    System.out.println(Character.toUpperCase((char) c));
+
+                }
+
+            }
+
+            System.out.println();
+            in.reset();
+        }
+
+    }
+}
