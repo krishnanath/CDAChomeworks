@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FileOutputStreamDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "FileOutputStreamDemo",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DemoFileList",
             "request": "launch",
             "cwd": "${workspaceFolder}",
