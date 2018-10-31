@@ -27,6 +27,4 @@ Setting up the Code
 
 If you have any questions, please post them in the class discussion forum.
 
-
-Chad “Shod” Darby
-www.luv2code.com
+ 
